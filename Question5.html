@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML FORMS EXAMPLE-MOZILLA FIREFOX</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Academic Information</legend>
+            <label for="Degree">Degree:</label>
+            <select>
+                <option>Master of Business Administration</option>
+            </select><br><br>
+            <label for="StudentID">Student ID:</label>
+            <input type="text" name="StudentID" id="StudentID" required>
+            <label for="classes">Classes Attended</label>
+            <select>
+                <option value="">Geography</option>
+                <option value="">Mathematics</option>
+                <option value="">English</option>
+            </select> <br> 
+        </fieldset>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="FirstName">FirstName</label>
+            <input type="text" name="FirstName" id="FirstName" required><br><br>
+            <label for="LastName">LastName</label>
+            <input type="text" name="LastName" id="LastName" required><br>
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="gender"  value="male" checked>male
+            <input type="radio" name="gender"  value="female"checked>female<br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required><br>
+            <fieldset style="width: 900px;height: 200px;"><p>TERMS AND CONDITIONS...</p>
+            </fieldset>
+            <Button type="submit">Send Form</button>
+            <Button type="submit">Clear Form</button> 
+        </fieldset>
+    </form>
+</body>
+</html>

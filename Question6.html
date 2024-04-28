@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA SHOP 2.0 FORM</title>
+    <style>
+        table, th{
+            border:3px solid gray;
+            border-collapse: collapse;
+        }
+        th{
+            text-align: left;
+        }
+        .pizza{
+            text-align: center;
+        }
+    </style>
+</head>
+<center>
+    <body>
+        <table>
+</tr>
+<th class="pizza" colspan="4"><h1>Pizza Shop 2.0 Form</h1></th>
+<tr>
+    <tr>
+        <th>Name</th>
+        <th colspan="3"><input type="" name="" value="" placeholder=""></th>
+    </tr>
+    <tr>
+    <th><label for="pizza_topping">Pizza Topping</label></th>
+    <th>
+    <input type="radio" name="pizza_topping" id="supreme" value="supreme">
+    <label for="supreme">supreme</label><br>
+    <input type="radio" name="pizza_topping" id="vegetarian" value="vegetarian">
+    <label for="vegetarian">vegetarian</label><br>
+    <input type="radio" name="pizza_topping" id="hawaiian" value="hawaiian">
+    <label for="hawaiian">hawaiian</label>
+    </th>
+    </tr>
+    <tr>
+    <th><label for="sauce">Pizza Sauce</label></th>
+    <th>
+        <select id="sauce" name="sauce">
+            <option value="tomato">Tomato</option>
+            <option value="extra-cheese">Extra Cheese</option>
+            <option value="gluten_free_base">Gluten Free Base</option>
+        </select>
+        </th>
+        </tr>
+        <tr text-align="left">
+            <th><label for="Optional-extras">Optional Extras</label></th>
+            <th>
+                <input type="checkbox"> Extra Cheese <input type="checkbox">Gluten Free Base<br>
+                 
+            </th>
+        </tr>
+        <tr>
+            <th colspan="4">
+                Delivery Instructions:
+                <label for="delivery-instructions"></label><br>         
+                <textarea style="width: 500px; height: 60px;"></textarea>
+
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <input type="button" value="send my order">
+            </th>
+        </tr>
+       </table>
+    </body>
+</center>
+</html>
